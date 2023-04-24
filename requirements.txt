@@ -1,0 +1,13 @@
+bentoml
+diffusers==0.11.1
+opencv-python
+matplotlib
+gradio
+torch
+torchvision
+torchaudio
+transformers
+scipy
+ftfy
+accelerate
+git+https://github.com/facebookresearch/segment-anything.git
