@@ -3,11 +3,17 @@
 ## What is this?
 A simple web application that lets you replace any part of an image with an image generated based on your description.
 
-![](https://github.com/yuqwu/Replace-Anything/blob/main/assets/demo.gif)
+![Demo](./assets/demo.gif)
 
 ✂️ Generate a mask using the Segment Anything Model ([SAM](https://github.com/facebookresearch/segment-anything#getting-started)) by Meta AI Research. SAM is able to accurately identify and isolate the specific areas of the image that you want to edit.
 
+![Original](./assets/original.png)
+![Segmented](./assets/segmented.png)
+
 🎨 Replace the specific parts of the image based on a text prompt using Diffusers library [Inpaint Pipeline](https://huggingface.co/docs/diffusers/main/en/api/pipelines/stable_diffusion/inpaint) by Hugging Face. This ensures smooth and seamless blending of the edited portions with the rest of the image, resulting in a natural and realistic final product.
+
+![Mask](./assets/mask.png)
+![Replaced](./assets/replaced.png)
 
 🍱 Serve the application and models with Gradio on [BentoML](https://github.com/bentoml/BentoML).
 
