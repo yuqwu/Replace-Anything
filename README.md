@@ -9,15 +9,21 @@ This library can be used to edit specific parts of an image in two simple steps.
 
 This library is deployed and served using BentoML.
 
-## Installation
-
-
-
 ## Getting Started
 First download the trained model checkpoint [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth). 
+```
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+```
 
+Before running the scripts, make sure you install the dependencies.
+```
+pip install -r requirements.txt
+```
 
+Use bentoml to serve the model.
+```
+bentoml serve
+```
 
-
-
+#
 This project is intended for research purposes only and is not intended for commercial use or profit. This project is based on two open source models, Meta Segment Anything and Stable Diffusion, which are made available under the respective licenses.
