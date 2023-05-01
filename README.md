@@ -1,7 +1,7 @@
 # Replace Anything
 
 ## What is this?
-A simple web application that lets you replace any part of an image with your an image generated based on your description.
+A simple web application that lets you replace any part of an image with an image generated based on your description.
 
 ![](https://github.com/yuqwu/Replace-Anything/blob/main/assets/demo.gif)
 
