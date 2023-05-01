@@ -15,7 +15,7 @@ DEVICE = "cuda"
 
 
 class SegmentAnythingRunner(bentoml.Runnable):
-    SUPPORTED_RESOURCES = ("cpu",)
+    SUPPORTED_RESOURCES = ("cpu","nvidia.com/gpu",)
     SUPPORTS_CPU_MULTI_THREADING = True
 
     def __init__(self):
