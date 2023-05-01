@@ -1,6 +1,5 @@
 # Replace Anything
 
-## What is this?
 A simple web application that lets you replace any part of an image with an image generated based on your description.
 
 ![Demo](./assets/demo.gif)
