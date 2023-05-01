@@ -40,7 +40,7 @@ def create_block(segment, inpaint):
             gr.Markdown("<h1><center>Replace Anything</center></h1>")
 
         with gr.Row():
-            gr.Markdown("<h3><center>With Segment Anything, Stable Diffusion, and BentoML 🍱</center></h3>")
+            gr.Markdown("<h3><center>With Segment Anything, Stable Diffusion from Hugging Face 🤗, and BentoML 🍱</center></h3>")
 
         with gr.Row():
             image_input = gr.inputs.Image(shape=(224, 224), label="Upload an Image", type="pil")

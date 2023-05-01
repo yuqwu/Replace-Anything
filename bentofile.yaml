@@ -1,9 +1,12 @@
 service: "service.py:svc"
+name: replace-anything
 labels:
-  owner: bentoml-team
-  project: gallery
+  owner: yuqwu
+  project: replace-anyting
 include:
   - "*.py"
   - "models/sam_vit_h_4b8939.pth"
 python:
   requirements_txt: ./requirements.txt
+docker:
+  cuda_version: 11.6
