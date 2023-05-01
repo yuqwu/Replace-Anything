@@ -9,6 +9,9 @@ This library can be used to edit specific parts of an image in two simple steps.
 
 This library is deployed and served using BentoML.
 
+**Demo:**
+![](https://github.com/yuqwu/Replace-Anything/blob/main/Demo1.gif)
+
 ## Getting Started
 First download the trained model checkpoint [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth). 
 ```
