@@ -32,5 +32,7 @@ Use bentoml to serve the model.
 bentoml serve
 ```
 
+You can access the WebUI through the /interface endpoint. The root / path is the Swagger debugging page provided by BentoML.
+
 #
 This project is intended for research purposes only and is not intended for commercial use or profit. This project is based on two open source models, Meta Segment Anything and Stable Diffusion, which are made available under the respective licenses.
